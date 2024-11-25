@@ -1,0 +1,28 @@
+.navbar-brand {
+
+    /*font-weight: bold;*/
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+.bg-custom {
+
+background-color: #FFF8E8;
+
+}
+.nav-link {
+
+    color: black;
+    font-weight: 500;
+
+}
+.logo {
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+
+}
