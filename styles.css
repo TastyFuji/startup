@@ -1,28 +1,163 @@
-.navbar-brand {
 
-    /*font-weight: bold;*/
+.bg-custom {
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.06); 
+}
+
+.navbar-brand {
     font-family: "Pacifico", cursive;
     font-weight: bold;
-    padding-top: 10px;
-
+    padding-top: 10px; 
+    margin-left: 50px;
 }
-.bg-custom {
 
-background-color: #FFF8E8;
-
+.navbar-nav .nav-link {
+    margin-right: 15px;
 }
+
 .nav-link {
-
     color: black;
     font-weight: 500;
-
 }
-.logo {
+
+.nav-link:hover {
+    color: #ceaf83;
+}
+
+.custom-content {
 
     padding-top: 20px;
-    padding-bottom: 15px;
+    max-width: 85%;
+
+}
+.nav-container {
+
+    max-width: 93%;
+
+}
+.colbg {
+
+background-color: #c49a60;
+
+}
+.position-btn .btn-log {
+
+    background-color: #ffffff;
+    color: #ceaf83;
+    font-weight: 600;
+    border: 3px solid #ceaf83;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 50px;
+
+}
+.position-btn .btn-log:hover {
+
+    color: #c49a60;
+    border: 3px solid #c49a60;
+
+
+}
+.position-btn .btn-reg {
+    background-color: #ceaf83;
+    color: white;
+    font-weight: 600;
+    border: 3px solid #ceaf83;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.position-btn .btn-reg:hover {
+    background-color: #c49a60;
+    border: 3px solid #c49a60;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 15px; 
     width: auto;
     height: auto;
     max-width: 100%;
+}
+.carousel-item img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover; 
+    border-radius: 15px;
+}
+.feature {
+
+    background-color: #ceaf83;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+.feature-header {
+
+
+    padding-bottom: 40px;
+
+
+}
+.feature h1, .feature h3 {
+
+    color: #4e3a1e;
+
+
+}
+.feature-footer {
+
+    padding-top: 30px;
+
+}
+.custom-feature {
+
+    padding-top: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 450px;
+}
+
+/* Footer */
+.page-footer {
+
+    padding-top: 20px;
+    height: 250px;
+    background-color: #ffffff;
+
+}
+
+/* About Page */
+
+
+.custom-about {
+
+    padding-top: 50px;
+
+}
+.about-header {
+
+    font-family: "Pacifico", cursive;
+    padding-bottom: 55px;
+    
+}
+.img-employee {
+
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.06);
+
+}
+.employee {
+
+    background-color: #f5f1ec;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    height: 500px;
 
 }
