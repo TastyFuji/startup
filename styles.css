@@ -259,3 +259,10 @@ ul li a {
     font-weight: bold;
     color: #d9534f; /* สีแดง */
 }
+.modal-content {
+    border-radius: 10px;
+}
+#contactModal .btn-primary {
+    background-color: #6a11cb;
+    border: none;
+}
