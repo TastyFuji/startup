@@ -73,24 +73,18 @@ background-color: #c49a60;
     border: 3px solid #c49a60;
 }
 
-.logo {
-    padding-top: 20px;
-    padding-bottom: 15px; 
-    width: auto;
-    height: auto;
-    max-width: 100%;
-}
 .carousel-item img {
     height: 300px;
     width: 500px;
     object-fit: cover; 
-    border-radius: 15px;
+    border-radius: 3px;
 }
 .feature {
 
     background-color: #ceaf83;
     padding-bottom: 30px;
     padding-top: 40px;
+    border-radius: 3px;
 
 }
 .feature-header {
@@ -117,12 +111,13 @@ background-color: #c49a60;
     background-color: #ffffff;
     border-radius: 10px;
     height: 450px;
+    margin-bottom: 15px;
 }
 
 /* Footer */
 .page-footer {
 
-    padding-top: 20px;
+    padding-top: 25px;
     height: 250px;
     background-color: #ffffff;
 
@@ -159,5 +154,22 @@ background-color: #c49a60;
     padding-top: 30px;
     margin-bottom: 15px;
     height: 500px;
+
+}
+.content-text {
+
+    padding-top: 15px;
+
+}
+.map {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+ul li p {
+
+    font-weight: bold;
 
 }
