@@ -81,10 +81,14 @@ background-color: #c49a60;
 }
 .feature {
 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Kanit", sans-serif;
     background-color: #ceaf83;
     padding-bottom: 30px;
     padding-top: 40px;
     border-radius: 3px;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.29);
 
 }
 .feature-header {
@@ -96,12 +100,33 @@ background-color: #c49a60;
 }
 .feature h1, .feature h3 {
 
-    color: #4e3a1e;
+    font-family: "Kanit", sans-serif;
+    color: #3f3424;
 
+
+}
+.feature-img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.feature h5 {
+
+    padding-bottom: 10px;
+
+}
+.feature p {
+
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 .feature-footer {
 
+    font-family: "Pacifico", cursive;
     padding-top: 30px;
 
 }
@@ -120,6 +145,7 @@ background-color: #c49a60;
     padding-top: 25px;
     height: 250px;
     background-color: #ffffff;
+    font-family: "Kanit", sans-serif;
 
 }
 
@@ -145,6 +171,7 @@ background-color: #c49a60;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
 
 }
 .employee {
@@ -153,23 +180,82 @@ background-color: #c49a60;
     border-radius: 10px;
     padding-top: 30px;
     margin-bottom: 15px;
-    height: 500px;
+    height: 430px;
 
 }
-.content-text {
+.employee p {
 
-    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
 
 }
-.map {
+.text-content-left {
 
-    width: 100%;
-    height: 100%;
+    font-family: "Kanit", sans-serif;
+    padding-top: 20px;
+    border-radius: 3px;
+    background-image: linear-gradient(90deg, rgba(247, 232, 212, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: -13px 8px 6px 0px rgba(0, 0, 0, 0.14);
+    margin-bottom: 5px;
+}
+.text-content-right {
+
+    font-family: "Kanit", sans-serif;
+    padding-top: 20px;
+    border-radius: 3px;
+    background-image: linear-gradient(270deg, rgba(247, 232, 212, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 13px 8px 6px 0px rgba(0, 0, 0, 0.14);
+    margin-bottom: 5px;
+
+}
+.text-content h4 {
+
+    font-weight: 600;
+
+}
+.text-content p {
+
+    padding-left: 10px;
+
+}
+.img-content {
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.img-cont {
+
+    width: 90%;
+    height: 300px;
     object-fit: cover;
+    border-radius: 3px;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.1);
 
 }
 ul li p {
 
     font-weight: bold;
 
+
+}
+ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Table */
+/* ปรับขนาดฟอนต์ของตารางใน Modal */
+.modal-body table th,
+.modal-body table td {
+    font-size: 1rem; /* ขนาดฟอนต์ปกติ */
+    padding: 15px; /* ระยะห่างระหว่างข้อความในตาราง */
+}
+
+/* เน้นสีสำหรับราคาสูงสุด */
+.modal-body table tr:last-child td {
+    font-weight: bold;
+    color: #d9534f; /* สีแดง */
 }

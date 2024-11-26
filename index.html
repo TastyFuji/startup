@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY COMPANY</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Parkinsans:wght@300&family=Ponnala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Elite&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-custom sticky-top">
@@ -29,186 +35,214 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="#feature">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contract">Contract</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                 </ul>
                 <div class="ms-auto position-btn">
-                    <a href="#login" class="btn btn-log me-1">Login</a>
-                    <a href="#register" class="btn btn-reg">Register</a>
+                    <button type="button" class="btn btn-reg" data-bs-toggle="modal" data-bs-target="#priceModal">
+                        สนใจใช้บริการ
+                    </button>
                 </div>
             </div>
         </div>
     </nav>
+
     <!-- Content -->
     <div class="container-fluid custom-content">
-        <div class= "row">
-
-            <!--- Content กับ รูปภาพ-->
-            <div class="col-lg-6 col-md-6 col-sm-12 content-text">
-                
-                <p>
-                    RoomReady: เว็บไซต์ที่ช่วยให้การค้นหาหอพักเป็นเรื่องง่าย สะดวก และครบวงจรในที่เดียว
-
-                    หากคุณกำลังมองหาที่พักอาศัยที่ตอบโจทย์ความต้องการเฉพาะตัว ไม่ว่าจะเป็นหอพักใกล้มหาวิทยาลัย ที่พักใกล้สถานที่ทำงาน หรือพื้นที่อยู่อาศัยที่เหมาะสมกับไลฟ์สไตล์ของคุณ RoomReady พร้อมให้บริการด้วยแพลตฟอร์มที่ถูกออกแบบมาเพื่อตอบสนองทุกความต้องการในการค้นหาหอพัก ด้วยระบบที่ใช้งานง่าย คุณสามารถค้นหาที่พักที่อยู่ในทำเลที่ต้องการ พร้อมทั้งจัดการงบประมาณของคุณได้อย่างมีประสิทธิภาพ
-
-                    RoomReady ไม่เพียงแต่ช่วยให้คุณค้นหาหอพักได้สะดวกสบาย แต่ยังให้ข้อมูลครบถ้วนเกี่ยวกับสถานที่ตั้ง สิ่งอำนวยความสะดวก ค่าใช้จ่าย และรีวิวจากผู้เข้าพักจริง เพื่อให้คุณมั่นใจในตัวเลือกของคุณ นอกจากนี้ เรายังมีตัวกรองการค้นหาที่หลากหลาย ช่วยให้คุณสามารถปรับแต่งผลลัพธ์ให้เหมาะสมกับความต้องการเฉพาะตัวได้ ไม่ว่าจะเป็นการเลือกหอพักที่มีอินเทอร์เน็ตความเร็วสูง พื้นที่จอดรถ หรือใกล้ระบบขนส่งสาธารณะ
-
-                    ด้วยบริการที่ครอบคลุมและการออกแบบเว็บไซต์ที่ทันสมัย RoomReady คือคู่หูที่ดีที่สุดในการค้นหาที่พักสำหรับทุกความต้องการของคุณ ไม่ว่าคุณจะเป็นนักศึกษา คนทำงาน หรือผู้ที่มองหาที่อยู่อาศัยใหม่ที่สะดวกสบายและอยู่ในงบประมาณของคุณอย่างลงตัว เราพร้อมให้คุณเริ่มต้นการค้นหาและตัดสินใจเลือกที่พักในฝันของคุณได้แล้ววันนี้
-
-                    RoomReady: ทุกคำตอบของการค้นหาหอพัก อยู่ในมือคุณ!
-                </p>
-
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                
-                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Indicators (จุดบอกสถานะสไลด์) -->
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-            
-                    <!-- ภาพในสไลด์ -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/slide1.jpg" class="d-block w-100" alt="Slide 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide2.jpg" class="d-block w-100" alt="Slide 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide3.jpg" class="d-block w-100" alt="Slide 3">
-                        </div>
-                    </div>
-
-            </div>
-        </div>
         <div class="row container-fluid">
 
-            <!--- ใส่ Map -->
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <!---1 -->
+            <div class="col-lg-6 col-md-6 col-sm-12 text-content-left">
+                <h4>ค้นหาหอพักที่ตอบโจทย์ทุกความต้องการ</h4>
+                <p>&emsp;&emsp;RoomReady เป็นแพลตฟอร์มที่ช่วยให้การค้นหาหอพักเป็นเรื่องง่ายดายและสะดวกที่สุด คุณสามารถค้นหาหอพักที่เหมาะกับคุณได้ ไม่ว่าจะเป็นหอพักใกล้มหาวิทยาลัย ที่พักใกล้ที่ทำงาน หรือที่อยู่อาศัยที่มาพร้อมความสะดวกสบายในงบประมาณที่เหมาะสม</p>
 
-                <img class="map" src="img/map.png" alt="map">
+                    <p>จุดเด่นของเรา:</p>
+                    
+                    <ul>
 
+                        <li>ค้นหาได้จากทำเลที่ตั้ง</li>
+                        <li>ตัวกรองการค้นหาที่หลากหลาย เช่น ราคาหรือสิ่งอำนวยความสะดวก</li>
+                        <li>แสดงข้อมูลห้องว่างแบบเรียลไทม์</li>
+
+                    </ul>
+                       
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 img-content text-center">
+                <img class="img-cont" src="img/map.png" alt="map">
+            </div>
+            <!---2 -->
+            <div class="col-lg-6 col-md-6 col-sm-12 img-content text-center">
+                <img class="img-cont" src="img/condo.jpg" alt="map">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-content-right">
+                <h4>เชื่อมต่อเจ้าของหอพักโดยตรง</h4>
+                <p>&emsp;&emsp;ด้วย RoomReady คุณสามารถติดต่อสอบถามข้อมูลจากเจ้าของหอพักได้โดยตรง ทำให้คุณมั่นใจได้ในความโปร่งใสของข้อมูลที่ได้รับ</p>
 
+                    <p>ประโยชน์สำหรับผู้เช่า:</p>
+                    
+                    <ul>
+
+                        <li>ติดต่อเจ้าของหอพักได้ทันที</li>
+                        <li>ข้อมูลครบถ้วน ทั้งราคา สิ่งอำนวยความสะดวก และรายละเอียดเพิ่มเติม</li>
+                        <li>หมดปัญหาเรื่องนายหน้าหรือค่าธรรมเนียมแอบแฝง</li>
+
+                    </ul>
+
+                    <p>สำหรับเจ้าของหอพักที่ต้องการแนะนำห้องพักของคุณ เรามีบริการให้คุณลงรายละเอียดหอพักและโปรโมตผ่านเว็บไซต์ของเรา</p>
+                       
+            </div>
+            <!----3 -->
+            <div class="col-lg-6 col-md-6 col-sm-12 text-content-left">
+                <h4>ฟีเจอร์ที่ช่วยให้ชีวิตคุณง่ายขึ้น</h4>
+                <p>&emsp;&emsp;RoomReady มีฟีเจอร์ที่ออกแบบมาเพื่อช่วยให้คุณค้นหาหอพักที่ตรงกับความต้องการได้อย่างรวดเร็ว</p>
+
+                    <p>ฟีเจอร์เด่น:</p>
+                    
+                    <ul>
+
+                        <li>แสดงหอพักที่มีห้องว่างแบบทันที</li>
+                        <li>ระบบค้นหาอัจฉริยะที่ช่วยประหยัดเวลา</li>
+                        <li>อินเทอร์เฟซที่ใช้งานง่าย ทั้งผ่านคอมพิวเตอร์และมือถือ</li>
+
+                    </ul>
+
+                    <p>ไม่ว่าคุณจะกำลังมองหาหอพักระยะสั้นหรือระยะยาว RoomReady พร้อมให้บริการคุณตลอดเวลา</p>
+                       
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 img-content text-center">
+                <img class="img-cont" src="img/slide1.jpg" alt="map">
+            </div>
         </div>
+
+        <!-- Features Section -->
         <div class="row container-fluid feature">
-
-            <div id="feature" class="feature-header">
-
-                <div class="col-12 text-center">
-
-                    <h1>Features</h1>
-                    <h3>All about Features</h3>
-    
-                </div>
-
+            <div id="feature" class="feature-header text-center">
+                
+                <h1>Features</h1>
+                <h3>Our Featues & Services.</h3>
             </div>
+
             <div class="col-lg-4 col-md-12 col-sm-12">
-
                 <div class="container-fluid custom-feature text-center">
-
-                    <p>Feature One</p>
-                    <br>
-                    <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
-
+                    <img class="feature-img" src="img/ISM.png" alt="ISM">
+                    <h5>Smart Map Integration</h5>
+                    <p>ช่วยให้ผู้ใช้งานสามารถค้นหาหอพักผ่านแผนที่แบบโต้ตอบได้ โดยระบุพื้นที่สำคัญ เช่น ใกล้มหาวิทยาลัย ที่ทำงาน หรือสถานีรถไฟฟ้า</p>
                 </div>
-
             </div>
+
             <div class="col-lg-4 col-md-12 col-sm-12">
-
                 <div class="container-fluid custom-feature text-center">
-
-                    <p>Feature Two</p>
-                    <br>
-                    <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
-
+                    <img class="feature-img" src="img/Review.png" alt="ISM">
+                    <h5>Rating & Review System</h5>
+                    <p>เพิ่มความโปร่งใสให้กับผู้ใช้งานโดยให้ผู้เช่าสามารถรีวิวและให้คะแนนหอพักได้ เพื่อช่วยให้คนอื่นตัดสินใจได้ง่ายขึ้น</p>
                 </div>
-
             </div>
+
             <div class="col-lg-4 col-md-12 col-sm-12">
-
                 <div class="container-fluid custom-feature text-center">
-
-                    <p>Feature Three</p>
-                    <br>
-                    <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
-
+                    <img class="feature-img" src="img/Booking.png" alt="ISM">
+                    <h5>Instant Booking</h5>
+                    <p>ให้ผู้ใช้งานจองหอพักได้ทันทีผ่านเว็บไซต์ ลดขั้นตอนการติดต่อไปกลับกับเจ้าของหอพัก</p>
                 </div>
-
             </div>
+
             <div class="col-12 text-center feature-footer">
-
-                <p>All about Features</p>
-
+                <p>RoomReady Features.</p>
             </div>
-
         </div>
-        <div class="page-footer">
 
+        <!-- Footer -->
+        <div id="contract" class="page-footer">
             <div class="row footer-content">
-
                 <div class="col-lg-4 col-md-4 col-sm-12">
-
                     <ul>
-                        <li><p>ติดต่อเรา</p>
-                        
+                        <li>
+                            <p>ติดต่อเรา</p>
                             <ul>
-
-                                <li><i class="fa-solid fa-phone"></i> : 0212345678 (ต่อ 99)</li>
-                                <li><i class="fa-solid fa-house"></i> : 112/44 ดาวอังคาร 99000</li>
-                                <li><i class="fa-solid fa-envelope"></i> : roomready_service@gmail.com</li>
-
+                                <li><i class="fa-solid fa-phone"></i>: 0212345678 (ต่อ 99)</li>
+                                <li><i class="fa-solid fa-house"></i>: 112/44 ดาวอังคาร 99000</li>
+                                <li><i class="fa-solid fa-envelope"></i>: roomready_service@gmail.com</li>
                             </ul>
-                        
                         </li>
                     </ul>
-    
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-
                     <ul>
-
-                        <li><p>ศูนย์บริการลูกค้า</p>
-                        
+                        <li>
+                            <p>ศูนย์บริการลูกค้า</p>
                             <ul>
-
-                                <li><i class="fa-solid fa-comment"></i> : หากมีข้อสงสัย สามารถติดต่อสอบถามได้ที่</li>
-                                <li><i class="fa-solid fa-book"></i> : Line ID : @roomready_service</li>
-                                
+                                <li><i class="fa-solid fa-comment"></i>: หากมีข้อสงสัย สามารถติดต่อสอบถามได้ที่</li>
+                                <li><i class="fa-brands fa-line"></i>: @roomready_service</li>
                             </ul>
-
                         </li>
-                        
                     </ul>
-    
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
-
-                   <ul>
-
-                        <li><p>เกี่ยวกับบริการ</p>
-                        
+                    <ul>
+                        <li>
+                            <p>เกี่ยวกับบริการ</p>
                             <ul>
-
-                                <li></li>
-
+                                <li><i class="fa-solid fa-file-lines"></i><a href="#">: นโยบายความเป็นส่วนตัว</a></li>
+                                <li><i class="fa-solid fa-desktop"></i><a href="#">: การใช้บริการ</a></li>
                             </ul>
-                        
                         </li>
-
-                   </ul>
-    
+                    </ul>
                 </div>
-
             </div>
-
         </div>
     </div>
+
+    <div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="priceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="priceModalLabel">Service Prices</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+    
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <table class="table table-bordered text-center">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Service</th>
+                                <th>Details</th>
+                                <th>Price (THB)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3 Months Plan</td>
+                                <td>สมัครใช้บริการ 3 เดือน</td>
+                                <td>999.-</td>
+                            </tr>
+                            <tr>
+                                <td>6 Months Plan</td>
+                                <td>สมัครใช้บริการ 6 เดือน</td>
+                                <td>1,799.-</td>
+                            </tr>
+                            <tr>
+                                <td>12 Months Plan</td>
+                                <td>สมัครใช้บริการ 12 เดือน</td>
+                                <td>3,399.-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#contract" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
 </html>
