@@ -245,36 +245,46 @@
     
     </div>
     
-    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalLabel">สนใจใช้บริการ</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-    
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <form id="contactForm">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">ชื่อ</label>
-                            <input type="text" class="form-control" id="name" placeholder="กรอกชื่อ" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="กรอกอีเมล" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">เบอร์โทรติดต่อกลับ</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="กรอกเบอร์โทร" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary w-100">Submit</button>
-                    </form>
-                </div>
+   <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">สนใจใช้บริการ</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">ชื่อ</label>
+                        <input type="text" class="form-control" id="name" placeholder="กรอกชื่อ" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="กรอกอีเมล" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">เบอร์โทรติดต่อกลับ</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="กรอกเบอร์โทร" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="plan" class="form-label">เลือกแผนบริการ</label>
+                        <select class="form-select" id="plan" required>
+                            <option value="" disabled selected>เลือกแผนบริการ...</option>
+                            <option value="3 Months Plan">3 Months Plan</option>
+                            <option value="6 Months Plan">6 Months Plan</option>
+                            <option value="12 Months Plan">12 Months Plan</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
             </div>
         </div>
     </div>
+</div>
+
 
     <script src="app.js"></script>
     <!-- Bootstrap JS -->
