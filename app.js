@@ -10,6 +10,10 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     console.log("Email:", email);
     console.log("Phone:", phone);
 
+    if (phone.length < 10) {
+    alert("กรุณากรอกเบอร์โทรให้ถูกต้อง");
+    return;
+}
     // ปิด Modal
     const modal = bootstrap.Modal.getInstance(document.getElementById("contactModal"));
     modal.hide();
